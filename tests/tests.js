@@ -56,8 +56,8 @@ exports.defineManualTests = function(rootEl, addButton) {
       if (!token) {
         console.log('Failed to get a token. lastError = ' + JSON.stringify(chrome.runtime.lastError));
       } else {
-        console.log('Token: ' + token);
-        console.log('Account: ' + account);
+        console.log('Token: ' + account);
+        console.log('Account: ' + token);
       }
     };
 
@@ -69,8 +69,8 @@ exports.defineManualTests = function(rootEl, addButton) {
       if (!token) {
         console.log('Failed to get a token. lastError = ' + JSON.stringify(chrome.runtime.lastError));
       } else {
-        console.log('Token: ' + token);
-        console.log('Account: ' + account);
+        console.log('Token: ' + account);
+        console.log('Account: ' + token);
       }
     };
 
